@@ -33,7 +33,8 @@ class ViewController: UIViewController {
         .systemBrown,
         .systemPurple,
         .systemYellow,
-        .systemOrange
+        .systemOrange,
+        .systemIndigo
     ]
 
     override func viewDidLoad() {
