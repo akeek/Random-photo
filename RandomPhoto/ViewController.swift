@@ -50,6 +50,7 @@ class ViewController: UIViewController {
     }
     
     @objc func didTapButton () {
+        self.showSpinner()
         getRandomPhoto()
         
         view.backgroundColor = colors.randomElement()
@@ -72,6 +73,7 @@ class ViewController: UIViewController {
             return
         }
         imageView.image = UIImage(data: data)
+        self.removeSpinner()
     }
 
 

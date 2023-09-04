@@ -16,6 +16,7 @@
 		F3154E772AA5CF100065DE72 /* RandomPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3154E762AA5CF100065DE72 /* RandomPhotoTests.swift */; };
 		F3154E812AA5CF100065DE72 /* RandomPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3154E802AA5CF100065DE72 /* RandomPhotoUITests.swift */; };
 		F3154E832AA5CF100065DE72 /* RandomPhotoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3154E822AA5CF100065DE72 /* RandomPhotoUITestsLaunchTests.swift */; };
+		F39D850B2AA604FE0083F300 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D850A2AA604FE0083F300 /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F3154E7C2AA5CF100065DE72 /* RandomPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3154E802AA5CF100065DE72 /* RandomPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITests.swift; sourceTree = "<group>"; };
 		F3154E822AA5CF100065DE72 /* RandomPhotoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F39D850A2AA604FE0083F300 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F3154E532AA5CF0E0065DE72 = {
 			isa = PBXGroup;
 			children = (
+				F39D850A2AA604FE0083F300 /* util.swift */,
 				F3154E5E2AA5CF0E0065DE72 /* RandomPhoto */,
 				F3154E752AA5CF100065DE72 /* RandomPhotoTests */,
 				F3154E7F2AA5CF100065DE72 /* RandomPhotoUITests */,
@@ -261,6 +264,7 @@
 				F3154E642AA5CF0E0065DE72 /* ViewController.swift in Sources */,
 				F3154E602AA5CF0E0065DE72 /* AppDelegate.swift in Sources */,
 				F3154E622AA5CF0E0065DE72 /* SceneDelegate.swift in Sources */,
+				F39D850B2AA604FE0083F300 /* util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
